@@ -1,0 +1,16 @@
+org\example\ui\SauceDemoScreen.class
+org\example\questions\HomeSauceDemoScreenData.class
+org\example\questions\AutoExerDemoScreenData.class
+org\example\tasks\OpenPage.class
+org\example\tasks\SignUpAutoTask.class
+org\example\tasks\RegistroAutoTask.class
+org\example\stepdefinitions\LoginAutoExerSD.class
+org\example\questions\AutoExer2DemoScreenData.class
+org\example\ui\HomeAutoDemoScreen.class
+org\example\interactions\Click.class
+org\example\stepdefinitions\RegisterAutoSD.class
+org\example\stepdefinitions\LoginSD.class
+org\example\runner\CucumberRunnerTest.class
+org\example\ui\HomeSauceDemoScreen.class
+org\example\tasks\LoginTask.class
+org\example\tasks\LoginAutoTask.class

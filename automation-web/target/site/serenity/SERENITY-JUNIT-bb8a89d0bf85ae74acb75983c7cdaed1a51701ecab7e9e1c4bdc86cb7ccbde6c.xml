@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="1" failures="2" name="Realizar login en Automation Exercise" skipped="0" tests="3" time="36.08" timestamp="2026-03-13 12:35:46"><testcase name="Registro exitoso con datos válidos"><failure message="Expected condition failed: waiting for By.xpath: //a[@href='/login'] to be present&#13;&#10;(tried for 8 seconds with 100 milliseconds interval)&#10;Build info: version: '4.41.0', revision: '9fc754f'&#10;System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'&#10;Driver info: driver.version: unknown" type="net.thucydides.core.webdriver.exceptions.ElementShouldBePresentException">Expected condition failed: waiting for By.xpath: //a[@href='/login'] to be present&#13;
+(tried for 8 seconds with 100 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: driver.version: unknown</failure><system-err>Expected condition failed: waiting for By.xpath: //a[@href='/login'] to be present&#13;
+(tried for 8 seconds with 100 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: driver.version: unknown&#13;
+org.example.stepdefinitions.RegisterAutoSD.elUsuarioSeleccionaElEnlaceSignup(RegisterAutoSD.java:39)&#13;
+</system-err></testcase><testcase name="Login exitoso con credenciales válidas"><error message="The following error occurred: target frame detached&#10;  (failed to check if window was closed: disconnected: Unable to receive message from renderer)&#10;  (Session info: chrome=146.0.7680.76) (error code: &quot;target frame detached&quot;)&#10;Build info: version: '4.41.0', revision: '9fc754f'&#10;System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [aa58a9c79eaebc433617f0d5612c30df, findElement {value=//a[@href='/login'], using=xpath}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.76, chrome: {chromedriverVersion: 146.0.7680.76 (2a4a5f9f74e5..., userDataDir: C:\Users\x13661\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58931}, goog:processID: 6364, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58931/devtoo..., se:cdpVersion: 146.0.7680.76, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: aa58a9c79eaebc433617f0d5612c30df" type="org.openqa.selenium.WebDriverException">The following error occurred: target frame detached
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=146.0.7680.76) (error code: "target frame detached")
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [aa58a9c79eaebc433617f0d5612c30df, findElement {value=//a[@href='/login'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.76, chrome: {chromedriverVersion: 146.0.7680.76 (2a4a5f9f74e5..., userDataDir: C:\Users\x13661\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58931}, goog:processID: 6364, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58931/devtoo..., se:cdpVersion: 146.0.7680.76, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: aa58a9c79eaebc433617f0d5612c30df</error><system-err>The following error occurred: target frame detached
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=146.0.7680.76) (error code: "target frame detached")
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [aa58a9c79eaebc433617f0d5612c30df, findElement {value=//a[@href='/login'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.76, chrome: {chromedriverVersion: 146.0.7680.76 (2a4a5f9f74e5..., userDataDir: C:\Users\x13661\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58931}, goog:processID: 6364, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58931/devtoo..., se:cdpVersion: 146.0.7680.76, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: aa58a9c79eaebc433617f0d5612c30df&#13;
+org.example.stepdefinitions.LoginAutoExerSD.elUsuarioNavegaALaPantallaLogin(LoginAutoExerSD.java:44)&#13;
+</system-err></testcase><testcase name="Logout credenciales validas"><failure message="Expected condition failed: waiting for By.xpath: //a[@href='/login'] to be present&#13;&#10;(tried for 8 seconds with 100 milliseconds interval)&#10;Build info: version: '4.41.0', revision: '9fc754f'&#10;System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'&#10;Driver info: driver.version: unknown" type="net.thucydides.core.webdriver.exceptions.ElementShouldBePresentException">Expected condition failed: waiting for By.xpath: //a[@href='/login'] to be present&#13;
+(tried for 8 seconds with 100 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: driver.version: unknown</failure><system-err>Expected condition failed: waiting for By.xpath: //a[@href='/login'] to be present&#13;
+(tried for 8 seconds with 100 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: driver.version: unknown&#13;
+org.example.stepdefinitions.LoginAutoExerSD.elUsuarioNavegaALaPantallaLogin(LoginAutoExerSD.java:44)&#13;
+</system-err></testcase></testsuite>

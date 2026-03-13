@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.example.runner.CucumberRunnerTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 77.65 s -- in org.example.runner.CucumberRunnerTest
